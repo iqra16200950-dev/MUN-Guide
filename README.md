@@ -4,8 +4,8 @@ HAI!Welcome to my project -MUN Guide -this is a lil guide to learn alll about mo
 *What This Bad Boy Does*
 I made this website so that it teaches you literally everything bout MUN:
 
-*Home*- Sick stuuf + why MUN slaps *harder* than my mum
-*Learn MUn*- UN basics and roles
+<li>*Home*- Sick stuuf + why MUN slaps *harder* than my mum
+*Learn MUN*- UN basics and roles
 *Committee Flow*-Step by step timeline
 *Documents* -Full sample of IMPORTANT paper and formating tips.
 *Speeches*- All bout speeches with examples + delivery tips
