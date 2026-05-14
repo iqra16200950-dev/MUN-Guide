@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Research - MUN Guide</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html"><h2>🏛️ MUN Guide</h2></a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="learn.html" class="nav-link">Learn MUN</a></li>
+                <li><a href="flow.html" class="nav-link">Committee Flow</a></li>
+                <li><a href="documents.html" class="nav-link">Documents</a></li>
+                <li><a href="speeches.html" class="nav-link">Speeches</a></li>
+                <li><a href="strategy.html" class="nav-link">Strategy</a></li>
+                <li><a href="#" class="nav-link active">Country Research</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+   
+    <section class="page-hero">
+        <div class="container">
+            <h1>Country Research</h1>
+            <p>Quick lookup/example of foreign policy positions and what one must know before conference starts</p>
+        </div>
+    </section>
+
+    
+    <section class="section">
+        <div class="container">
+            <div class="country-selector">
+                <h2>Select Country</h2>
+                <div class="selector-group">
+                    <select id="countrySelect" class="country-dropdown">
+                        <option value="">Choose a country...</option>
+                    </select>
+                    <button id="randomCountry" class="btn btn-secondary">🎲 Random</button>
+                </div>
+            </div>
+
+          
+            <div id="countryInfo" class="country-card hidden">
+                <div class="country-header">
+                    <div class="country-flag" id="countryFlag"></div>
+                    <div>
+                        <h2 id="countryName"></h2>
+                        <span class="country-region" id="countryRegion"></span>
+                    </div>
+                </div>
+                <div class="country-content">
+                    <div class="grid-2">
+                        <div>
+                            <h3>Key Facts</h3>
+                            <div id="countryFacts"></div>
+                        </div>
+                        <div>
+                            <h3>Foreign Policy</h3>
+                            <div id="countryPolicy"></div>
+                        </div>
+                    </div>
+                    <div class="country-topics">
+                        <h3>Key MUN Topics</h3>
+                        <div id="countryTopics"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MUN Guide. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
